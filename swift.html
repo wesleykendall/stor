@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Swift &mdash; stor 1.0.0 documentation</title>
+  <title>Swift &mdash; stor 1.1.0 documentation</title>
   
 
   
@@ -30,7 +30,7 @@
   
 
   
-    <link rel="top" title="stor 1.0.0 documentation" href="index.html"/>
+    <link rel="top" title="stor 1.1.0 documentation" href="index.html"/>
         <link rel="next" title="S3" href="s3.html"/>
         <link rel="prev" title="Main Interface" href="main_interface.html"/> 
 
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                1.0.0
+                1.1.0
               </div>
             
           
@@ -188,7 +188,8 @@ with a similar interface to the path library.</p>
 <tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
 <li><strong>mode</strong> (<a class="reference external" href="http://python.readthedocs.io/en/v2.7.2/library/functions.html#str" title="(in Python v2.7)"><em>str</em></a>) &#8211; The mode of object IO. Currently supports reading
 (&#8220;r&#8221; or &#8220;rb&#8221;) and writing (&#8220;w&#8221;, &#8220;wb&#8221;)</li>
-<li><strong>swift_upload_options</strong> (<a class="reference external" href="http://python.readthedocs.io/en/v2.7.2/library/stdtypes.html#dict" title="(in Python v2.7)"><em>dict</em></a>) &#8211; A dictionary of arguments that will be
+<li><strong>swift_upload_options</strong> (<a class="reference external" href="http://python.readthedocs.io/en/v2.7.2/library/stdtypes.html#dict" title="(in Python v2.7)"><em>dict</em></a>) &#8211; DEPRECATED (use <a class="reference internal" href="settings.html#stor.settings.use" title="stor.settings.use"><code class="xref any py py-attr docutils literal"><span class="pre">stor.settings.use()</span></code></a>
+instead). A dictionary of arguments that will be
 passed as keyword args to <a class="reference internal" href="#stor.swift.SwiftPath.upload" title="stor.swift.SwiftPath.upload"><code class="xref any py py-meth docutils literal"><span class="pre">SwiftPath.upload</span></code></a> if any writes
 occur on the opened resource.</li>
 </ul>
@@ -1192,7 +1193,8 @@ meet the condition.</li>
 <tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
 <li><strong>mode</strong> (<a class="reference external" href="http://python.readthedocs.io/en/v2.7.2/library/functions.html#str" title="(in Python v2.7)"><em>str</em></a>) &#8211; The mode of object IO. Currently supports reading
 (&#8220;r&#8221; or &#8220;rb&#8221;) and writing (&#8220;w&#8221;, &#8220;wb&#8221;)</li>
-<li><strong>swift_upload_options</strong> (<a class="reference external" href="http://python.readthedocs.io/en/v2.7.2/library/stdtypes.html#dict" title="(in Python v2.7)"><em>dict</em></a>) &#8211; A dictionary of arguments that will be
+<li><strong>swift_upload_options</strong> (<a class="reference external" href="http://python.readthedocs.io/en/v2.7.2/library/stdtypes.html#dict" title="(in Python v2.7)"><em>dict</em></a>) &#8211; DEPRECATED (use <a class="reference internal" href="settings.html#stor.settings.use" title="stor.settings.use"><code class="xref any py py-attr docutils literal"><span class="pre">stor.settings.use()</span></code></a>
+instead). A dictionary of arguments that will be
 passed as keyword args to <a class="reference internal" href="#stor.swift.SwiftPath.upload" title="stor.swift.SwiftPath.upload"><code class="xref any py py-meth docutils literal"><span class="pre">SwiftPath.upload</span></code></a> if any writes
 occur on the opened resource.</li>
 </ul>
@@ -1767,7 +1769,7 @@ or relative directory markers (i.e. &#8216;/&#8217; -&gt; &#8216;&#8217;, &#8216
     <script type="text/javascript">
         var DOCUMENTATION_OPTIONS = {
             URL_ROOT:'./',
-            VERSION:'1.0.0',
+            VERSION:'1.1.0',
             COLLAPSE_INDEX:false,
             FILE_SUFFIX:'.html',
             HAS_SOURCE:  true
